@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="row">
       <div class="col-12">
-        <div class="card bg-dark-overlay-4 overflow-hidden card-bg-scale h-400 text-center" style="background-image:url(assets/images/blog/16by9/09.jpg); background-position: center left; background-size: cover;">
+        <div class="card bg-dark-overlay-4 overflow-hidden card-bg-scale h-400 text-center  about_image"  src='media/about_meeting.jpg' style="background-image:url('static/media/about_meeting.jpg'); background-position: center left; background-size: cover;">
           <!-- Card Image overlay -->
           <div class="card-img-overlay d-flex align-items-center p-3 p-sm-4"> 
             <div class="w-100 my-auto">
@@ -14,8 +14,7 @@
               <!-- breadcrumb -->
               <nav class="d-flex justify-content-center" aria-label="breadcrumb">
                 <ol class="breadcrumb breadcrumb-dark breadcrumb-dots mb-0">
-                  <li class="breadcrumb-item"><a href="index.html"><i class="bi bi-house me-1"></i> Home</a></li>
-                  <li class="breadcrumb-item active">About us</li>
+                  <li class="breadcrumb-item"><a href="{% url "home" %}"><i class="bi bi-house me-1"></i> Home</a></li>
                 </ol>
               </nav>
             </div>
