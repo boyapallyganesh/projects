@@ -1,0 +1,13 @@
+.about_image{ 
+    background-image: url("media/about_meeting.jpg");
+    background-position: center left; 
+    background-size: cover
+
+}
+
+
+
+
+
+/*         <div class="card bg-dark-overlay-4 overflow-hidden card-bg-scale h-400 text-center" style="background-image:url('about_meeting.jpg'); background-position: center left; background-size: cover;">
+  */
